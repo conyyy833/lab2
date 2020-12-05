@@ -6,7 +6,7 @@
         <groupId>com.diy</groupId>
         <artifactId>shop</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
+        <relativePath>parent_pom.xml</relativePath>
     </parent>
     <groupId>com.diy</groupId>
     <artifactId>eureka</artifactId>
@@ -35,13 +35,5 @@
     </dependencies>
 
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
