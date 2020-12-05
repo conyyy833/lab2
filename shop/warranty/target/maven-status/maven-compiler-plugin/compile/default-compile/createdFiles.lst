@@ -1,0 +1,8 @@
+com\diy\shop\service\impl\WarrantyServiceImpl.class
+com\diy\shop\repository\WarrantyRepository.class
+com\diy\shop\entity\Warranty.class
+com\diy\shop\controller\WarrantyController.class
+com\diy\shop\WarrantyApplication.class
+com\diy\shop\service\BaseService.class
+com\diy\shop\dto\ItemWarrantyRequest.class
+com\diy\shop\service\WarrantyService.class

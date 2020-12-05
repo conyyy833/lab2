@@ -1,0 +1,14 @@
+com\diy\shop\WarehouseApplication.class
+com\diy\shop\service\BaseService.class
+com\diy\shop\service\WarehouseService.class
+com\diy\shop\controller\WarehouseController.class
+com\diy\shop\fegin\WarrantyApi.class
+com\diy\shop\dto\ItemRequest.class
+com\diy\shop\dto\OrderWarrantyRequest.class
+com\diy\shop\entity\Items.class
+com\diy\shop\dto\ItemResponse.class
+com\diy\shop\entity\OrderItem.class
+com\diy\shop\repository\WarehouseRepository.class
+com\diy\shop\repository\OrderItemRepository.class
+com\diy\shop\dto\ItemWarrantyRequest.class
+com\diy\shop\service\impl\WarehouseServiceImpl.class

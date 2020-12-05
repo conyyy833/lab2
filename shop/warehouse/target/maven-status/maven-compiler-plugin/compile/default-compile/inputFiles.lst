@@ -1,0 +1,14 @@
+D:\javaProjects\lab2-microservices-conyyy833\shop\warehouse\src\main\java\com\diy\shop\dto\OrderWarrantyRequest.java
+D:\javaProjects\lab2-microservices-conyyy833\shop\warehouse\src\main\java\com\diy\shop\entity\OrderItem.java
+D:\javaProjects\lab2-microservices-conyyy833\shop\warehouse\src\main\java\com\diy\shop\dto\ItemRequest.java
+D:\javaProjects\lab2-microservices-conyyy833\shop\warehouse\src\main\java\com\diy\shop\service\BaseService.java
+D:\javaProjects\lab2-microservices-conyyy833\shop\warehouse\src\main\java\com\diy\shop\entity\Items.java
+D:\javaProjects\lab2-microservices-conyyy833\shop\warehouse\src\main\java\com\diy\shop\repository\WarehouseRepository.java
+D:\javaProjects\lab2-microservices-conyyy833\shop\warehouse\src\main\java\com\diy\shop\service\WarehouseService.java
+D:\javaProjects\lab2-microservices-conyyy833\shop\warehouse\src\main\java\com\diy\shop\WarehouseApplication.java
+D:\javaProjects\lab2-microservices-conyyy833\shop\warehouse\src\main\java\com\diy\shop\dto\ItemWarrantyRequest.java
+D:\javaProjects\lab2-microservices-conyyy833\shop\warehouse\src\main\java\com\diy\shop\controller\WarehouseController.java
+D:\javaProjects\lab2-microservices-conyyy833\shop\warehouse\src\main\java\com\diy\shop\repository\OrderItemRepository.java
+D:\javaProjects\lab2-microservices-conyyy833\shop\warehouse\src\main\java\com\diy\shop\fegin\WarrantyApi.java
+D:\javaProjects\lab2-microservices-conyyy833\shop\warehouse\src\main\java\com\diy\shop\dto\ItemResponse.java
+D:\javaProjects\lab2-microservices-conyyy833\shop\warehouse\src\main\java\com\diy\shop\service\impl\WarehouseServiceImpl.java

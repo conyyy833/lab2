@@ -1,0 +1,24 @@
+eureka:
+  client:
+    enabled: true
+    serviceUrl:
+      defaultZone: http://localhost:8801/eureka/
+server:
+  port: 8480
+spring:
+  application:
+    name: store
+  profiles:
+    active: jdbc
+  datasource:
+    url: jdbc:postgresql://ec2-52-22-216-69.compute-1.amazonaws.com:5432/d1khtava5gaehn
+    username: xywsfpceevifsl
+    password: 8d3838c8d55d440b4b58a6f60268a6e1c2a17870cb8522270280cb7be2a5b87b
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
