@@ -22,9 +22,6 @@
     <!-- 统一管理jar包版本 -->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <mysql.version>8.0.21</mysql.version>
-        <druid.version>1.1.22</druid.version>
-        <mybatis.spring.boot.version>2.1.2</mybatis.spring.boot.version>
         <spring-boot-dependencies.version>2.2.9.RELEASE</spring-boot-dependencies.version>
         <spring-cloud-dependencies.version>Hoxton.SR8</spring-cloud-dependencies.version>
         <spring-cloud-alibaba-dependencies.version>2.2.2.RELEASE</spring-cloud-alibaba-dependencies.version>

@@ -4,22 +4,22 @@
 	"values": [
 		{
 			"key": "storeUrl",
-			"value": "https://store-service-app.herokuapp.com",
+			"value": "https://storeservice-app.herokuapp.com",
 			"enabled": true
 		},
 		{
 			"key": "warrantyUrl",
-			"value": "https://warranty-service-app.herokuapp.com",
+			"value": "https://warrantyservice-app.herokuapp.com",
 			"enabled": true
 		},
 		{
 			"key": "orderUrl",
-			"value": "https://order-service-app.herokuapp.com",
+			"value": "https://orderservice-app.herokuapp.com",
 			"enabled": true
 		},
 		{
 			"key": "warehouseUrl",
-			"value": "https://warehouse-service-app.herokuapp.com",
+			"value": "https://warehouseservice-app.herokuapp.com",
 			"enabled": true
 		},
 		{

@@ -2,7 +2,7 @@ eureka:
   client:
     enabled: true
     serviceUrl:
-      defaultZone: http://localhost:8801/eureka/
+      defaultZone: http://eureka-shop-app.herokuapp.com/eureka/
 server:
   port: 8180
 spring:
