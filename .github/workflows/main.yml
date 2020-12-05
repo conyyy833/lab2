@@ -21,7 +21,7 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: eureka-shop-app
           heroku_email: conyyy833@gmail.com
-          appdir: "eureka"
+          appdir: "shop/eureka"
 
       - name: Deploy Store Service
         uses: akhileshns/heroku-deploy@v3.4.6
@@ -29,7 +29,7 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: storeservice-app
           heroku_email: conyyy833@gmail.com
-          appdir: "store"
+          appdir: "shop/store"
 
       - name: Deploy Warranty Service
         uses: akhileshns/heroku-deploy@v3.4.6
@@ -37,7 +37,7 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: warrantyservice-app
           heroku_email: conyyy833@gmail.com
-          appdir: "warranty"
+          appdir: "shop/warranty"
 
 
       - name: Deploy Warehouse Service
@@ -46,7 +46,7 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: warehouseservice-app
           heroku_email: conyyy833@gmail.com
-          appdir: "warehouse"
+          appdir: "shop/warehouse"
 
 
       - name: Deploy Order Service
@@ -55,7 +55,7 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: orderservice-app
           heroku_email: conyyy833@gmail.com
-          appdir: "order"
+          appdir: "shop/order"
 
       - name: Run API Tests
         id: run-newman
