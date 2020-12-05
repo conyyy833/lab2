@@ -40,7 +40,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.2.9.RELEASE</version>
                 <configuration>
-                    <mainClass>module2.Module2Application</mainClass>
+                    <mainClass>com.cloud.eureka.EurekaApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>
