@@ -10,11 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install Java
-        uses: actions/setup-java@v1
-        with:
-          java-version: 1.8
-
       - name: Run API Tests
         id: run-newman
         uses: anthonyvscode/newman-action@v1
