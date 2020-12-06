@@ -15,48 +15,6 @@ jobs:
         with:
           java-version: 1.8
 
-      - name: Deploy eureka Service
-        uses: akhileshns/heroku-deploy@v3.6.8
-        with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: eureka-shop-app
-          heroku_email: conyyy833@gmail.com
-          appdir: shop/eureka
-
-      - name: Deploy Store Service
-        uses: akhileshns/heroku-deploy@v3.6.8
-        with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: storeservice-app
-          heroku_email: conyyy833@gmail.com
-          appdir: shop/store
-
-      - name: Deploy Warranty Service
-        uses: akhileshns/heroku-deploy@v3.6.8
-        with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: warrantyservice-app
-          heroku_email: conyyy833@gmail.com
-          appdir: shop/warranty
-
-
-      - name: Deploy Warehouse Service
-        uses: akhileshns/heroku-deploy@v3.6.8
-        with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: warehouseservice-app
-          heroku_email: conyyy833@gmail.com
-          appdir: shop/warehouse
-
-
-      - name: Deploy Order Service
-        uses: akhileshns/heroku-deploy@v3.6.8
-        with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: orderservice-app
-          heroku_email: conyyy833@gmail.com
-          appdir: shop/order
-
       - name: Run API Tests
         id: run-newman
         uses: anthonyvscode/newman-action@v1
